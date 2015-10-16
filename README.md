@@ -46,10 +46,10 @@ Then add this code to your CSS file:<br>
 	<li>Add custom class to [BLOCK]</li>
 </ol></p>
 
-<h3>Changelog<h3>
+<h3>Changelog</h3>
 
-<strong>= 1.1 =</strong><br>
-* Blocks moved to layout section<br>
+<strong>Version 1.1</strong>
+<ul><li>Blocks moved to layout section</li></ul>
 <br>
-<strong>= 1.0 =</strong><br>
-* Blocks functionality<br>
+<strong>Version 1.0</strong>
+<ul><li>Blocks functionality</li></ul>
