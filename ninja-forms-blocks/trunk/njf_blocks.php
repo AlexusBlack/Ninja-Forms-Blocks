@@ -2,7 +2,7 @@
    /*
    Plugin Name: Ninja Forms Blocks
    Description: Add blocks functionality to Ninja Forms
-   Version: 1.1
+   Version: 1.2
    Author: Alexander Chernov
    Author URI: http://alexuslab.com
    License: GPL2

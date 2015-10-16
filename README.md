@@ -48,6 +48,9 @@ Then add this code to your CSS file:<br>
 
 <h3>Changelog</h3>
 
+<strong>Version 1.2</strong>
+<ul><li>Blocks removed from places not realated to form layout</li></ul>
+<br>
 <strong>Version 1.1</strong>
 <ul><li>Blocks moved to layout section</li></ul>
 <br>
