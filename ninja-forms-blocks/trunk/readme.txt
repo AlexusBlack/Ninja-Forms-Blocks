@@ -43,6 +43,9 @@ Then add this code to your CSS file:
 
 == Changelog ==
 
+= 1.2 =
+* Blocks removed from places not realated to form layout
+
 = 1.1 =
 * Blocks moved to layout section
 
