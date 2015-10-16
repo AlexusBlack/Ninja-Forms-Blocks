@@ -25,7 +25,7 @@ Wordpress plugin page: https://wordpress.org/plugins/ninja-forms-blocks/<br>
 	<li>add open [BLOCK] and close [/BLOCK] to your Ninja Form</li>
 </ol></p>
 
-<h3>Frequently Asked Questions<3>
+<h3>Frequently Asked Questions</h3>
 
 <p>
 <u>How create two columns layout with custom css?</u><br><br>
