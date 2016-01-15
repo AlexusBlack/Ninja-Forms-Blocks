@@ -32,9 +32,13 @@ Wordpress plugin page: https://wordpress.org/plugins/ninja-forms-blocks/<br>
 
 Create two columns with blocks in form editor, add `njf-column njf-column__left` classes to first [BLOCK] and<br>
 `njf-column njf-column__right` classes to second [BLOCK].<br>
-Then add this code to your CSS file:<br>
+Then add this code to your CSS file (thanks @ronherren):<br>
 <pre><code>.njf-column {
+	display: -moz-inline-stack; /* Firefox inline-block fix */
 	display: inline-block;
+	vertical-align: top;	/* Align both columns to top */
+	zoom: 1; /* IE inline-block fix */
+	*display: inline; /* IE inline-block fix */
 	width: 49.5%;
 }</code></pre>
 </p>

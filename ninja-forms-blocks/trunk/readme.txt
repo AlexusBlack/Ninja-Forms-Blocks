@@ -2,7 +2,7 @@
 Contributors: alexusblack
 Tags: Ninja Forms, Blocks, Columns
 Requires at least: 3.0.1
-Tested up to: 4.3.1
+Tested up to: 4.4.1
 Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -30,9 +30,13 @@ Ninja Forms Blocks is really simple plugin adding two form elements: [BLOCK] and
 
 Create two columns with blocks in form editor, add `njf-column njf-column__left` classes to first [BLOCK] and
 `njf-column njf-column__right` classes to second [BLOCK].
-Then add this code to your CSS file:
+Then add this code to your CSS file (thanks @ronherren):
 `.njf-column {
+	display: -moz-inline-stack; /* Firefox inline-block fix */
 	display: inline-block;
+	vertical-align: top;	/* Align both columns to top */
+	zoom: 1; /* IE inline-block fix */
+	*display: inline; /* IE inline-block fix */
 	width: 49.5%;
 }`
 
