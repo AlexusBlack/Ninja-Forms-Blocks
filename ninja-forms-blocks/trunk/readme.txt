@@ -28,8 +28,11 @@ Ninja Forms Blocks is really simple plugin adding two form elements: [BLOCK] and
 
 = How create two columns layout with custom css? =
 
-Create two columns with blocks in form editor, add `njf-column njf-column__left` classes to first [BLOCK] and
-`njf-column njf-column__right` classes to second [BLOCK].
+Create two columns with blocks in form editor, add 
+`njf-column njf-column__left` 
+classes to first [BLOCK] and
+`njf-column njf-column__right` 
+classes to second [BLOCK].
 Then add this code to your CSS file (thanks @ronherren):
 `.njf-column {
 	display: -moz-inline-stack; /* Firefox inline-block fix */
