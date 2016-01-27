@@ -1,6 +1,6 @@
 === Ninja Forms Blocks ===
 Contributors: alexusblack
-Tags: Ninja Forms, Blocks, Columns
+Tags: Ninja Forms, Blocks, Columns, div, layout
 Requires at least: 3.0.1
 Tested up to: 4.4.1
 Stable tag: trunk
@@ -23,10 +23,11 @@ Ninja Forms Blocks is really simple plugin adding two form elements: [BLOCK] and
 1. Upload `njf_blocks` folder to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
 3. add open [BLOCK] and close [/BLOCK] to your Ninja Form
+4. add css code for your blocks
 
 == Frequently Asked Questions ==
 
-= How create two columns layout with custom css? =
+= How I can create two columns layout with custom css? =
 
 Create two columns with blocks in form editor, add 
 `njf-column njf-column__left` 
